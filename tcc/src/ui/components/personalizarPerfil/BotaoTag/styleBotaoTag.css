@@ -1,0 +1,33 @@
+.botaoTag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secundary-color);
+    background-color: var(--default-color);
+    height: 25px;
+    width: auto;padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #C98FEC;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+}
+
+.botaoTagAtivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--default-color);
+    height: 25px;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secundary-color) 100%);
+}

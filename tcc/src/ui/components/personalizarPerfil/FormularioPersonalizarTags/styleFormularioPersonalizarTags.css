@@ -1,0 +1,143 @@
+.formularioPersonalizarTags{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 992px;
+    height: 600px;
+}
+
+.formularioPersonalizarTags__header{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 1.5vh;
+}
+
+.formularioPersonalizarTags__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.subtitle{
+    width: 50%;
+    text-align: center;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.listasTags {
+    max-height: 30vh;
+}
+
+.tagsList{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    max-height: 25vh;
+}
+
+.tagsListaFechada {
+    display: none;
+}
+
+.tagsListaAberta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    left: 0;
+    position: relative;
+    top: 60px;
+    width: 989px;
+    height: 128px;
+    background-color: var(--default-color);
+    box-shadow: 0px -3px 20px 0px rgba(65, 57, 70, 0.15);
+    border-radius: 30px;
+}
+
+.containerTagsLista {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow-y: scroll;
+    max-height: 100%;
+    color: var(--contrast-color);
+    width: 100%;
+    justify-content: center;
+}
+
+.listasTags {
+    display: flex;
+
+}
+
+.main__tituloFiltros {
+    color: var(--contrast-color);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.main__listaFiltros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 0.75rem;
+    padding-right: 40px;
+}
+
+.tagsGeral {
+    cursor: pointer;
+    position: relative;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 300ms all;
+}
+
+.tagsGeral:hover {
+    background-color: #666369;
+    text-align: center;
+    width: 110px;
+}
+
+.aparecerLista {
+    width: 93px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 6px;
+    font-size: 0.50rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    flex-wrap: wrap;
+    color: var(--default-color);
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secundary-color) 100%);
+    cursor: pointer;
+}
+
+.main__opcoesTags {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+.setaEnviarTags {
+    cursor: pointer;
+}
