@@ -1,7 +1,7 @@
 import React from 'react'
 import './styleConversas.css'
 import InputGlobal from '../../../../ui/components/global/InputGlobal/InputGlobal'
-import IconObject from '../../../../ui/components/global/IconesGlobais/iconesGlobais'
+import IconObject from '../../../../ui/components/global/IconesGlobais/IconesGlobais'
 import { Outlet } from 'react-router-dom'
 
 
